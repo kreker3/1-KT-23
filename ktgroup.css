@@ -1,0 +1,498 @@
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  margin: 0;
+  padding: 0 20px;
+}
+
+header {
+  background-color: #1f1f1f;
+  text-align: center;
+  padding: 20px 10px; 
+  border-bottom: 3px solid #00ffcc;
+}
+
+header h1 {
+  font-size: 2.2em; /* було 3em */
+  color: #00ffcc;
+  margin: 0;
+}
+
+header h2 {
+  font-size: 1.2em; 
+  color: #ffcc00;
+  margin: 5px 0;
+}
+
+.slogan {
+  font-style: italic;
+  color: #aaa;
+  font-size: 0.9em;
+}
+
+.students {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); 
+  gap: 20px;
+  padding: 20px;
+  justify-items: center;
+}
+
+.student {
+  background-color: #2a2a2a;
+  padding: 15px;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 0 10px #00ffcc55;
+}
+
+#quotes ul {
+  list-style-type: "💬 ";
+  padding-left: 20px;
+}
+
+footer {
+  background-color: #111;
+  color: #777;
+  text-align: center;
+  font-size: 0.8em;
+  padding: 10px;
+  margin-top: 50px;
+  border-top: 1px solid #333;
+}
+.memes-custom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.meme {
+  text-align: center;
+  max-width: 280px;
+  flex: 1 1 280px;
+}
+
+.meme img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 0 12px #00ffcc66;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.caption {
+  font-size: 1em;
+  color: #e0e0e0;
+  font-style: italic;
+}
+
+#teachers {
+  margin-top: 60px;
+  padding: 30px 20px;
+  background-color: #1a1a1a;
+  border-top: 3px solid #00ffcc;
+  border-bottom: 3px solid #ffcc00;
+  text-align: center;
+}
+
+#teachers h2 {
+  color: #ffcc00;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.teachers-intro {
+  color: #ccc;
+  font-style: italic;
+  margin-bottom: 25px;
+  font-size: 1em;
+}
+
+#teachers .quotes {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #2a2a2a;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #00ffcc66;
+  text-align: left;
+}
+
+#teachers .quotes h3 {
+  color: #00ffcc;
+  font-size: 1.4em;
+  margin-bottom: 15px;
+}
+
+#teachers .quotes-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+#teachers .quotes-list li {
+  background: #333;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  color: #eee;
+  font-family: 'Comic Sans MS', cursive;
+  transition: background 0.3s;
+}
+
+#teachers .quotes-list li:hover {
+  background-color: #444;
+}
+#students-section {
+  margin-top: 60px;
+  padding: 30px 20px;
+  background-color: #1a1a1a;
+  border-top: 3px solid #ff3399;
+  border-bottom: 3px solid #00ccff;
+  text-align: center;
+}
+
+#students-section h2 {
+  color: #00ccff;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.students-intro {
+  color: #ccc;
+  font-style: italic;
+  margin-bottom: 25px;
+  font-size: 1em;
+}
+
+#students-section .quotes {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #2a2a2a;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #00ccff66;
+  text-align: left;
+}
+
+#students-section .quotes h3 {
+  color: #ff3399;
+  font-size: 1.4em;
+  margin-bottom: 15px;
+}
+
+#students-section .quotes-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+#students-section .quotes-list li {
+  background: #333;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  color: #eee;
+  font-family: 'Comic Sans MS', cursive;
+  transition: background 0.3s;
+}
+
+#students-section .quotes-list li:hover {
+  background-color: #444;
+}
+#records {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.record-table {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 800px;
+  border-collapse: collapse;
+  background-color: #1f1f1f;
+  color: #e0e0e0;
+  box-shadow: 0 0 12px #00ffcc55;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.record-table th, .record-table td {
+  padding: 15px;
+  border-bottom: 1px solid #333;
+}
+
+.record-table th {
+  background-color: #00ffcc22;
+  color: #00ffcc;
+  font-weight: bold;
+}
+
+.record-table tr:last-child td {
+  border-bottom: none;
+}
+
+.record-table tbody tr:hover {
+  background-color: #2a2a2a;
+}
+#excuses {
+  margin-top: 60px;
+  padding: 30px 20px;
+  background-color: #1a1a1a;
+  border-top: 3px solid #ff66cc;
+  border-bottom: 3px solid #00ffff;
+  text-align: center;
+}
+
+#excuses h2 {
+  color: #ff66cc;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.excuses-intro {
+  color: #ccc;
+  font-style: italic;
+  margin-bottom: 25px;
+  font-size: 1em;
+}
+
+.excuses-list {
+  list-style-type: "🤷 ";
+  padding-left: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.excuses-list li {
+  background: #333;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  color: #eee;
+  font-family: 'Comic Sans MS', cursive;
+  transition: background 0.3s;
+}
+
+.excuses-list li:hover {
+  background-color: #444;
+}
+#calendar {
+  margin-top: 60px;
+  padding: 30px 20px;
+  background-color: #1a1a1a;
+  border-top: 3px solid #ff6600;
+  border-bottom: 3px solid #00cc66;
+  text-align: center;
+}
+
+#calendar h2 {
+  color: #ff6600;
+  font-size: 2em;
+  margin-bottom: 20px;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.calendar-list {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: left;
+  list-style-type: "📌 ";
+  color: #e0e0e0;
+  font-size: 1.1em;
+  padding-left: 20px;
+}
+
+.calendar-list li {
+  margin-bottom: 12px;
+  padding: 8px 15px;
+  background-color: #292929;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ff660055;
+  transition: background-color 0.3s;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.calendar-list li:hover {
+  background-color: #3a3a3a;
+}
+#detective-stories {
+  margin-top: 60px;
+  padding: 30px 20px;
+  background-color: #1a1a1a;
+  border-top: 3px solid #ff6600;
+  border-bottom: 3px solid #ff6600;
+  color: #f0a040;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 12px;
+  box-shadow: 0 0 15px #ff660055;
+}
+
+#detective-stories h2 {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+#detective-stories .story {
+  background-color: #2b2b2b;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 8px #ff6600aa;
+}
+
+#detective-stories .story h3 {
+  margin-top: 0;
+  color: #ffaa33;
+}
+
+#detective-stories details summary {
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  outline: none;
+}
+
+#detective-stories details[open] summary {
+  color: #ffbb55;
+}
+
+#detective-stories details p, 
+#detective-stories details ul {
+  margin-left: 20px;
+  margin-bottom: 15px;
+  color: #ffdca8;
+}
+@media (max-width: 1440px) {
+  .students {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .student {
+    width: 100%;
+  }
+
+  header h1 {
+    font-size: 2.4em;
+  }
+
+  header h2 {
+    font-size: 1.3em;
+  }
+
+  .meme {
+    max-width: 240px;
+  }
+
+  .record-table {
+    width: 95%;
+  }
+
+  #teachers .quotes,
+  #students-section .quotes,
+  .excuses-list,
+  .calendar-list {
+    font-size: 1.05em;
+  }
+
+  .calendar-list li,
+  .excuses-list li,
+  .quotes-list li {
+    padding: 12px 18px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .students {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .record-table th, .record-table td {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.8em;
+  }
+
+  header h2 {
+    font-size: 1em;
+  }
+
+  .students {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .student {
+    width: 100%;
+  }
+
+  .meme {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .record-table {
+    width: 100%;
+    overflow-x: auto;
+    display: block;
+  }
+
+  #teachers h2,
+  #students-section h2,
+  #excuses h2,
+  #calendar h2,
+  #detective-stories h2 {
+    font-size: 1.5em;
+  }
+
+  .calendar-list,
+  .excuses-list,
+  .quotes-list {
+    font-size: 0.95em;
+  }
+
+  body {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .students {
+    grid-template-columns: 1fr;
+  }
+
+  .student {
+    padding: 10px;
+  }
+
+  .caption {
+    font-size: 0.9em;
+  }
+
+  header h1 {
+    font-size: 1.5em;
+  }
+
+  header h2 {
+    font-size: 0.9em;
+  }
+
+  .teachers-intro,
+  .students-intro,
+  .excuses-intro {
+    font-size: 0.9em;
+  }
+
+  #detective-stories .story h3 {
+    font-size: 1.2em;
+  }
+}
